@@ -1,3 +1,4 @@
+
 function setup() {
   createCanvas(640, 480);
 }
@@ -35,14 +36,19 @@ arc(280, 200, 50, 50, 0, PI, CHORD);
 ellipse(220, 180, 20);
 ellipse(340, 180, 20);
 
+
+
 //mouth
 noFill();
 stroke(1);
 arc(280, 240, 110, 90, TWO_PI, PI);
-//noFill();
-//stroke(1);
-arc(285, 280, 60, 85, TWO_PI, PI);
+
+fill("red");
+stroke(1);
+arc(285, 310, 45, 10, PI, TWO_PI);
+fill("red");
+arc(285, 308.5, 42.5, 28, TWO_PI, PI);
 noFill();
 stroke(1);
-arc(285, 280, 60, 85, TWO_PI);
+arc(285, 280, 60, 85, TWO_PI, PI);
 }
